@@ -9,11 +9,13 @@
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.SignalR.Client" />
     <None Remove="Hubs\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hubs\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
